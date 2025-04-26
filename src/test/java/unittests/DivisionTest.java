@@ -3,6 +3,7 @@ package unittests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import customcode.Calculator;
 import setup.AnnotationsConfigTest;
 
 @Test(groups = "division")

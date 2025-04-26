@@ -3,6 +3,8 @@ package unittests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import customcode.Calculator;
+
 @Test(groups = "multiplication")
 public class MultiplicationTest {
 	Calculator calc = new Calculator();
